@@ -4,10 +4,12 @@ This simple tool generates a 64 byte hashing using Scrypt key derivation functio
 ## Build Notes
 go build -o ScryptHasher
 
-## Usage 
+## Usage
+```
 ScryptHasher -passphrase <string> -salt <hex string>
-Where:
-  -passphrase string
-        pass phrase used in generating hash (default "passphrase")
-  -salt string
-        8 byte salt in hex format
+Where:  
+  -passphrase string 
+        pass phrase used in generating hash (default "passphrase")  
+  -salt string 
+        8 byte salt in hex format     
+```
